@@ -1,2 +1,2 @@
 #!/bin/bash
-mapfile -s 3 -n 1 ary < iacta
+head -n 3 iacta | tail -n 1
